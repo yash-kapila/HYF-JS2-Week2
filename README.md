@@ -177,12 +177,12 @@ Two factors influenced the introduction of arrow functions:
 
 2. no existence of this keyword.
 
-Until arrow functions, every new function defined its own this value based on how the function was called:
+    Until arrow functions, every new function defined its own this value based on how the function was called:
 
-- A new object in the case of a constructor.
-- undefined in _strict mode_ function calls.
-- The base object if the function is called as an "object method".
-- etc
+    - A new object in the case of a constructor.
+    - undefined in _strict mode_ function calls.
+    - The base object if the function is called as an "object method".
+    - etc
 
     ```JavaScript
     function Person() {
